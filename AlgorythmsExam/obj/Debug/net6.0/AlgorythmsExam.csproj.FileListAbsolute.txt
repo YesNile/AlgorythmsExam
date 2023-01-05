@@ -1,0 +1,15 @@
+D:\Users\Данил\RiderProjects\AlgorythmsExam\AlgorythmsExam\bin\Debug\net6.0\AlgorythmsExam.exe
+D:\Users\Данил\RiderProjects\AlgorythmsExam\AlgorythmsExam\bin\Debug\net6.0\AlgorythmsExam.deps.json
+D:\Users\Данил\RiderProjects\AlgorythmsExam\AlgorythmsExam\bin\Debug\net6.0\AlgorythmsExam.runtimeconfig.json
+D:\Users\Данил\RiderProjects\AlgorythmsExam\AlgorythmsExam\bin\Debug\net6.0\AlgorythmsExam.dll
+D:\Users\Данил\RiderProjects\AlgorythmsExam\AlgorythmsExam\bin\Debug\net6.0\AlgorythmsExam.pdb
+D:\Users\Данил\RiderProjects\AlgorythmsExam\AlgorythmsExam\obj\Debug\net6.0\AlgorythmsExam.csproj.AssemblyReference.cache
+D:\Users\Данил\RiderProjects\AlgorythmsExam\AlgorythmsExam\obj\Debug\net6.0\AlgorythmsExam.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Данил\RiderProjects\AlgorythmsExam\AlgorythmsExam\obj\Debug\net6.0\AlgorythmsExam.AssemblyInfoInputs.cache
+D:\Users\Данил\RiderProjects\AlgorythmsExam\AlgorythmsExam\obj\Debug\net6.0\AlgorythmsExam.AssemblyInfo.cs
+D:\Users\Данил\RiderProjects\AlgorythmsExam\AlgorythmsExam\obj\Debug\net6.0\AlgorythmsExam.csproj.CoreCompileInputs.cache
+D:\Users\Данил\RiderProjects\AlgorythmsExam\AlgorythmsExam\obj\Debug\net6.0\AlgorythmsExam.dll
+D:\Users\Данил\RiderProjects\AlgorythmsExam\AlgorythmsExam\obj\Debug\net6.0\refint\AlgorythmsExam.dll
+D:\Users\Данил\RiderProjects\AlgorythmsExam\AlgorythmsExam\obj\Debug\net6.0\AlgorythmsExam.pdb
+D:\Users\Данил\RiderProjects\AlgorythmsExam\AlgorythmsExam\obj\Debug\net6.0\AlgorythmsExam.genruntimeconfig.cache
+D:\Users\Данил\RiderProjects\AlgorythmsExam\AlgorythmsExam\obj\Debug\net6.0\ref\AlgorythmsExam.dll
