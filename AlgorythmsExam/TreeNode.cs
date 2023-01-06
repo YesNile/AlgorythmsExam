@@ -1,0 +1,37 @@
+﻿namespace AlgorythmsExam;
+
+class TreeNode
+{
+    public TreeNode(int num) => number = num;
+    int number;
+    TreeNode? left;
+    TreeNode? right;
+
+    internal void Insert(int num)
+    {
+        if (num < number)
+        {
+            if (left == null)
+                left = new TreeNode(num);
+            else
+                left.Insert(num);
+        }
+        else
+        {
+            if (right == null)
+                right = new TreeNode(num);
+            else
+                right.Insert(num);
+        }
+    }
+
+    internal List<int> Parse(List<int> array)
+    {
+        if (left != null)
+            left.Parse(array);
+        array.Add(number);
+        if (right != null)
+            right.Parse(array);
+        return array;
+    }
+}
