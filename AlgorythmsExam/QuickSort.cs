@@ -17,11 +17,6 @@ public class QuickSort
                 }
             }
             (array[market], array[last]) = (array[last], array[market]);
-            // foreach (var value in array)
-            // {
-            //     Console.Write(value+" ");
-            // }
-            // Console.WriteLine();
             return market;
         }
         if ( first >= last)
