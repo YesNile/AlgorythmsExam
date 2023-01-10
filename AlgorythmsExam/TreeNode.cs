@@ -7,7 +7,7 @@ class TreeNode
     TreeNode? left;
     TreeNode? right;
 
-    internal void Insert(int num)
+    public void Insert(int num)
     {
         if (num < number)
         {
@@ -25,7 +25,7 @@ class TreeNode
         }
     }
 
-    internal List<int> Parse(List<int> array)
+    public List<int> Parse(List<int> array)
     {
         if (left != null)
             left.Parse(array);

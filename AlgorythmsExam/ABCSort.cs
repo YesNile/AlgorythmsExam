@@ -2,21 +2,22 @@
 
 public static class ABCSort
 {
+    static string[] GetArr(Dictionary<char,List<string>> table)
+    {
+        var list = new List<string>();
+        foreach (var items in table.OrderBy(x=>x.Key))
+        {
+            foreach (var item in items.Value)
+            {
+                list.Add(item);
+            }
+        }
+        table.Clear();
+        return list.ToArray();
+    }
     public static string[] ABSSort(string[] arr)
     {
-        static string[] GetArr(Dictionary<char,List<string>> table)
-        {
-            var list = new List<string>();
-            foreach (var items in table.OrderBy(x=>x.Key))
-            {
-                foreach (var item in items.Value)
-                {
-                    list.Add(item);
-                }
-            }
-            table.Clear();
-            return list.ToArray();
-        }
+        
         var maxlength = 1;
         foreach (var item in arr)
         {

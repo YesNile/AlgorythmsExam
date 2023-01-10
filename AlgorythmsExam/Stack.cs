@@ -12,7 +12,7 @@ public class NodeStack<TValue>
     public NodeStack<TValue> Previous;
     public TValue Value;
 }
-public class MyLinkedList<TValue>:IEnumerable<TValue>
+public class MyLinkedList<TValue>
 {
     public NodeStack<TValue> Head;
     public NodeStack<TValue> Tail;
@@ -75,23 +75,8 @@ public class MyLinkedList<TValue>:IEnumerable<TValue>
         Count = Count ==0?0:Count--;
         return value;
     }
-
-    public IEnumerator<TValue> GetEnumerator()
-    {
-        var node = Head;
-        while (node != null)
-        {
-            yield return node.Value;
-            node = node.Next;
-        }
-    }
-
-    IEnumerator IEnumerable.GetEnumerator()
-    {
-        return GetEnumerator();
-    }
 }
-public class Stack<TValue>:IEnumerable<TValue>
+public class Stack<TValue>
 {
     
     private MyLinkedList<TValue> list = new MyLinkedList<TValue>();
@@ -116,15 +101,5 @@ public class Stack<TValue>:IEnumerable<TValue>
     public bool IsEmpty()
     {
         return list.IsEmpty();
-    }
-
-    public IEnumerator<TValue> GetEnumerator()
-    {
-        return list.GetEnumerator();
-    }
-
-    IEnumerator IEnumerable.GetEnumerator()
-    {
-        return GetEnumerator();
     }
 }

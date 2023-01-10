@@ -12,7 +12,7 @@ public class NodeQueue<TValue>
     public NodeQueue<TValue> Previous;
     public TValue Value;
 }
-public class MyLinkedListQueue<TValue>:IEnumerable<TValue>
+public class MyLinkedListQueue<TValue>
 {
     public NodeQueue<TValue> Head;
     public NodeQueue<TValue> Tail;
@@ -75,23 +75,8 @@ public class MyLinkedListQueue<TValue>:IEnumerable<TValue>
         Count = Count ==0?0:Count--;
         return value;
     }
-
-    public IEnumerator<TValue> GetEnumerator()
-    {
-        var node = Head;
-        while (node != null)
-        {
-            yield return node.Value;
-            node = node.Next;
-        }
-    }
-
-    IEnumerator IEnumerable.GetEnumerator()
-    {
-        return GetEnumerator();
-    }
 }
-public class Queue<TValue>:IEnumerable<TValue>
+public class Queue<TValue>
 {
     
     private MyLinkedListQueue<TValue> list = new MyLinkedListQueue<TValue>();
@@ -127,15 +112,5 @@ public class Queue<TValue>:IEnumerable<TValue>
     public bool IsEmpty()
     {
         return list.IsEmpty();
-    }
-
-    public IEnumerator<TValue> GetEnumerator()
-    {
-        return list.GetEnumerator();
-    }
-
-    IEnumerator IEnumerable.GetEnumerator()
-    {
-        return GetEnumerator();
     }
 }
