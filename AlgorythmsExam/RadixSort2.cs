@@ -32,12 +32,13 @@ public class RadixSort2
         }
 
         var table = new Dictionary<int, List<int>>();
+        var mul = 1;
         for (var i =-9; i <= 9; i++)
         {
             table.Add(i, new List<int>());
         }
 
-        var mul = 1;
+        
         for (var k = 0; k < maxlenght; k++)
         {
             for (var i = 0; i < array.Length; i++)

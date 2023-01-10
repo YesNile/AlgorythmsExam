@@ -1,5 +1,5 @@
 ﻿namespace AlgorythmsExam;
-
+// Сортировка вставками. Сложность O(n^2). Элемент протаскивается влево до своего места
 public class InsertionSort
 {
     public static void Sort(int[] array)

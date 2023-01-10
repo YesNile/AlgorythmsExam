@@ -1,5 +1,5 @@
 ﻿namespace AlgorythmsExam;
-
+// Сортировка Шелла. Сложность O(n^2). Элементы сортируются с уменьшающимся расстоянием между ними
 public class ShellSort
 {
     public static void Sort(int[] array)

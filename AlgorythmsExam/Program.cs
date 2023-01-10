@@ -48,9 +48,9 @@ foreach (var i in array)
 //ShakerSort.Sort(array);
 //ShellSort.Sort(array);
 //Print(BinarySearch.Search(sortedArray, 21, sortedArray[0], sortedArray.Length));
-QuickSort.QSort(array, 0, array.Length-1);
+//QuickSort.QSort(array, 0, array.Length-1);
 //RadixSort.Sort(radixArray);
-//TreeSort.Sort(array);
+//TreeSort2.Sort(array);
 
 Console.WriteLine("\nОтсортированный массив:");
 foreach (var i in array)
@@ -63,8 +63,3 @@ void Print(int result)
 {
     Console.WriteLine($"\n{result}");
 }
-
-
-
-
-

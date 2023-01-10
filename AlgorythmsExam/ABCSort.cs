@@ -1,5 +1,5 @@
 ﻿namespace AlgorythmsExam;
-
+//ABC сортировка.Сложность O(k * n), где k — количество обрабатываемых разрядов.
 public static class ABCSort
 {
     static string[] GetArr(Dictionary<char,List<string>> table)

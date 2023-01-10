@@ -1,5 +1,5 @@
 ﻿namespace AlgorythmsExam;
-
+// Сортировка выбором. Сложность O(n^2). Наименьший элемент перемещается в отсортированную последовательность
 public class SelectionSort
 {
     public static void Sort(int[] array)

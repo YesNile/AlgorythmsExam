@@ -1,5 +1,5 @@
 ﻿namespace AlgorythmsExam;
-
+// Шейкерная сортировка. Сложность O(n^2). Наибольшие и наименьшие элементы протаскиваются в конец и начало, границы сортировки сужаются
 public class ShakerSort
 {
     public static void Sort(int[] array)

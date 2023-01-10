@@ -1,5 +1,5 @@
 ﻿namespace AlgorythmsExam;
-
+// Сортировка двоичным деревом. Сложность O(n*log2 n). Элементы располагаются деревом, слева < число, справа >= число
 public class TreeSort
 {
     public static void Sort(int[] array)

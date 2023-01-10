@@ -1,9 +1,12 @@
 ﻿namespace AlgorythmsExam;
-
+// Быстрая сортировка. O(n*log2 n). Массив разбивается на левый и правый от опорного элемента
 public class QuickSort
 {
-    public static int[] QSort(int[] array,int first,int last)
-    {
+    public static int[] QSort(int[] array,int min,int max)
+    { 
+        if ( min >= max)
+                 return array;
+             
         static int Sort(int[] array,int first,int last)
         {
             var market = first;
@@ -19,12 +22,10 @@ public class QuickSort
             (array[market], array[last]) = (array[last], array[market]);
             return market;
         }
-        if ( first >= last)
-            return array;
-        
-        var pivot = Sort(array, first, last);
-        QSort (array, first, pivot-1);
-        QSort (array, pivot+1, last);
+       
+        var pivot = Sort(array, min, max);
+        QSort (array, min, pivot-1);
+        QSort (array, pivot+1, max);
         return array;
     }
 }

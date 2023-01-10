@@ -1,5 +1,5 @@
 ﻿namespace AlgorythmsExam;
-
+// Сортировка пузырьком. Сложность O(n^2). Меняются соседние элементы
 public class BubbleSort
 {
     public static void Sort(int[] array)

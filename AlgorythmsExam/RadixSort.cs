@@ -1,5 +1,5 @@
 ﻿namespace AlgorythmsExam;
-
+//Поразрядная сортировка.Сложность O(k * n), где k количество проходов по массиву.
 public class RadixSort
 {
     public static void Sort(int[] array)

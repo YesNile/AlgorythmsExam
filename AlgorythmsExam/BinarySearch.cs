@@ -1,5 +1,5 @@
 ﻿namespace AlgorythmsExam;
-
+// Алгоритм бинарного поиска. O(log2 n). В два раза сужаем область поиска.
 public class BinarySearch
 {
     public static int Search(int[] array, int value, int min, int max)
